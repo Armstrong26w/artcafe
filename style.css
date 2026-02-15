@@ -1,0 +1,74 @@
+body{
+    background-color: cadetblue;
+    background-image: url(https://th.bing.com/th/id/OIP.p-Gr19efh6AcuPH5p1guWgHaF0?w=195&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+}
+
+h1,h2{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+h3{
+    color:black;
+    text-align: center;
+    text-decoration: underline;
+}
+.left,.right{
+    width: 50%;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    gap: 1%;
+}
+
+.right{
+    background-color: darkgray;
+}
+
+.left{
+    background-color: darkkhaki;
+    padding-left: 80px;
+}
+
+.center-img{
+    margin: 0% auto;
+    display: block;
+}
+
+table,th,td{
+    border:  1px solid black;
+    border-collapse: collapse;
+    margin: 30px;
+    padding: 10px;
+}
+
+hr{
+    border-color: black;
+}
+
+h4{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+textarea{
+    height: 50%;
+    width: 40%;
+    resize: none;
+}
+
+footer{
+    background-color: rgb(8, 14, 26);
+    margin: 0%;
+    height: 30px;
+    text-align: center;
+    padding: 30px;
+    color: aliceblue;
+}
